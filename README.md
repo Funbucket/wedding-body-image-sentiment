@@ -29,11 +29,11 @@
    - 스트레스: `jnyx74/stress-prediction` 모델
    - 긍정: `cardiffnlp/twitter-roberta-base-sentiment` 모델
 5. **인과 효과 추정 (IPW)**
-   - Propensity Score: 커뮤니티 및 작성 시점(`year_month`)을 혼란변수로 하는 로지스틱 회귀
+   - **Propensity Score**: 커뮤니티(`community`) 및 작성 시점(`year_month`)을 혼란변수로 하는 로지스틱 회귀
    - 역확률가중치(IPW) 기반 ATE 및 부트스트랩 신뢰구간 산출
 6. **견고성 분석**
-   - 민감도 분석: 임계값(60%·70%·80%) 변경 시 ATE 비교
-   - 커뮤니티별 이질성: The Knot vs xxfitness 서브그룹 ATE 분석
+   - **민감도 분석**: 임계값(60%·70%·80%)별 ATE 비교
+   - **커뮤니티별 이질성**: The Knot vs xxfitness 서브그룹 ATE 분석
 
 ## 결과 요약
 

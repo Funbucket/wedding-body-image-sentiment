@@ -35,6 +35,16 @@
    - **민감도 분석**: 임계값(60%·70%·80%)별 ATE 비교
    - **커뮤니티별 이질성**: The Knot vs xxfitness 서브그룹 ATE 분석
 
+## 인과 그래프
+
+본 프로젝트의 인과 구조는 아래와 같습니다.  
+웨딩 관련 논의는 스트레스 증가와 긍정 감정 상승이라는 상반된 정서 반응을 유발할 수 있으며,  
+커뮤니티 및 게시 시점은 이러한 논의 참여와 정서 지표 모두에 영향을 주는 혼란변수(confounders)로 고려되었습니다.
+
+<p align="center">
+  <img src="./causal_graph.png" width="600" alt="Causal DAG of Wedding-related Body Image Discussion and Emotional Impact"/>
+</p>
+
 ## 결과 요약
 
 - **스트레스**: 웨딩 관련 체형 논의 시 평균 **+0.05** 상승 (95% CI 비포함, 통계적 유의)
